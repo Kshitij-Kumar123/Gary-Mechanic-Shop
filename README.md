@@ -13,12 +13,14 @@ All customers have to do is simply log in and see how their repair is progressin
 
 ## How did I build it?
 
+![microservice basic structure](https://user-images.githubusercontent.com/68606208/149051348-fb7e2f94-08d6-41cc-acfc-9459071faf61.png)
+
 This is a Spring Boot application which follows the microservice architecture. Vital tools were used in this microservices such as 
 - Spring Security and JSON Web Tokens (JWT) to secure the application with basic user heirarchy and privledges.  
 - PostgreSQL database to store all user and employee information (with encrypted passwords via Bcrypt), ticket, customer car, model and car parts information and more,
 - Spring Cloud config to store most of the services configuration data, 
 - Spring Web and Spring Data JPA to create basic RESTful endpoints routed effectively by Spring Gateway, 
-- record instances of each service via Spring Discovery Client, 
+- add a discovery service through Eureka, 
 - and lastly, used Resilience4J as circuit breaker as service communicate with each other. 
 
 
