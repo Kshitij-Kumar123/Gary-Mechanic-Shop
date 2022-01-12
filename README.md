@@ -26,7 +26,7 @@ This is a Spring Boot application which follows the microservice architecture. V
 
 ## What's next for the project?
 
-The project still has many features that will be implemented in the future, such as 
+The project still has many features that will be implemented in the future as I would like to work on it time to time, such as 
 - using Hystrix Dashboard or equivalent to monitor the microservice very easily.
 - Add options for mechanics to add PDF or word files, 
 - Instant messages to customer every time there is progress to their car via Rabbit MQ, 
